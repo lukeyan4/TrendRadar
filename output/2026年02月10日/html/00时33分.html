@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2026-02-10 00:33:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai</td>
+                <td class="count">10</td>
+                <td class="percentage">3.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%8D%E8%A6%81%E5%AF%B9AI%E8%AF%B4%E8%B0%A2%E8%B0%A2" target="_blank" class="news-link">不要对AI说谢谢</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2284846" target="_blank" class="news-link">一图看懂｜AI应用“春节档”持续上新，下一波神仙打架已就位？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时33分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2003997015852482602" target="_blank" class="news-link">如何评价影视飓风在凌晨发布视频《改变视频行业的 AI，快来了》？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/premium/articles/3765169?layout=wscn-layout" target="_blank" class="news-link">汇丰中国财富洞察：AI技术更迭引发软件股重挫，软件板块未来发展或分化|热点追踪</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3765259" target="_blank" class="news-link">凌晨三点，彻底失眠：Seedance 2.0告诉我们，AI对现实世界工作流“压缩”正在加速</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3765243" target="_blank" class="news-link">本周重磅日程：美非农CPI齐发，中国通胀，AI、机器人春节大战</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3765271" target="_blank" class="news-link">创业板涨3%，AI应用、CPO暴涨，光伏掀涨停潮，恒科指涨1%，澜起科技IPO首日涨超60%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 00时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2284689" target="_blank" class="news-link">【每日收评】创业板指高开高走涨近3%，全市场超4600股飘红，AI应用方向集体爆发</a> [11] <font color='grey'>- 00时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2284501" target="_blank" class="news-link">回到60年前！硅谷大厂竞相复刻IBM模式：垂直整合成AI博弈终极答案？</a> [13] <font color='grey'>- 00时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AIGC%E6%95%B4%E6%B4%BB%E6%96%B0%E6%98%A5%E8%81%94%E6%AC%A2%E4%BC%9A" target="_blank" class="news-link">AIGC整活新春联欢会</a> [14] <font color='grey'>- 00时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">A股</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2284984" target="_blank" class="news-link">A股大举提升再融资吸引力！哪些公司受益？划定哪些红线？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
